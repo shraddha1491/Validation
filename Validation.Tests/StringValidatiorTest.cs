@@ -49,6 +49,14 @@ namespace Validation.Tests
 
         }
 
+        [Fact]
+        public void Test_NullLogger()
+        {
+            ILogger logger = null;
+            Assert.Throws<ArgumentNullException>(() => new StringValidator(logger));
+
+        }
+
 
     }
 }

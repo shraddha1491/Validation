@@ -21,6 +21,10 @@ namespace Validation
 
         public StringValidator(ILogger logger)
         { 
+            if(logger == null)
+            {
+                throw new ArgumentNullException();
+            }               
             _logger = logger;
             _loggingProperties = new Dictionary<string, string>()
                 {
