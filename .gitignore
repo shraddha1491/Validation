@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/Validation/v15
+/Client/bin/Debug/netcoreapp2.1
+/Client/obj
+/Common.Logging/obj
+/Common.Logging/bin/Debug/netcoreapp2.1
+/Validation/obj
+/Validation/bin/Debug/netcoreapp2.1
+/Validation.Tests/obj
+/Validation.Tests/bin/Debug/netcoreapp2.1
